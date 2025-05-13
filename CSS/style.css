@@ -1,0 +1,31 @@
+/* seluruh */
+body {
+  font-family: arial;
+}
+
+/* hanya class main header */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-logo {
+  width: 50px;
+  height: 50px;
+  background-image: url(https://w0.peakpx.com/wallpaper/918/617/HD-wallpaper-anime-yuuki-yuuna-wa-yuusha-de-aru-yuki-yuna.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+}
+nav a {
+  border: 1px solid;
+  color: black;
+  text-decoration: none;
+  padding: 8px;
+  background-color: azure;
+}
